@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="#cccccc"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#cbb4b4"
+        android:orientation="vertical">
+
+        <!-- Custom Title Bar -->
+        <LinearLayout
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:background="#bccbb4"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <!-- Chips View -->
+        <android.support.design.chip.ChipGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="test" />
+
+            <android.support.design.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="android" />
+
+            <android.support.design.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="support" />
+
+            <android.support.design.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" android" />
+
+            <android.support.design.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="library" />
+
+            <android.support.design.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="documentation" />
+
+            <android.support.design.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guidelines" />
+
+            <android.support.design.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="is" />
+
+            <android.support.design.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="are" />
+
+            <android.support.design.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="test" />
+
+            <android.support.design.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="android" />
+
+            <android.support.design.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="support" />
+
+            <android.support.design.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" android" />
+
+            <android.support.design.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="library" />
+
+            <android.support.design.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="documentation" />
+
+            <android.support.design.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guidelines" />
+
+            <android.support.design.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="is" />
+
+            <android.support.design.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="are" />
+
+
+        </android.support.design.chip.ChipGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TEST"
+            android:textSize="70px"
+            android:gravity="center_horizontal"/>
+
+
+        <!-- Layout for 2 rows of tiles -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#b4bacb"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="#bfbc8c"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="5dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    card_view:cardCornerRadius="4dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:text="12"
+                           android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:textSize="35px"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:text="A"
+                            android:textSize="80px"
+                            android:layout_centerInParent="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginEnd="5dp"
+                    card_view:cardCornerRadius="4dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:text="1"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:textSize="35px"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:text="A"
+                            android:textSize="80px"
+                            android:layout_centerInParent="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_width="70dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_height="70dp"
+                    card_view:cardCornerRadius="4dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:text="1"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:textSize="35px"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:text="A"
+                            android:textSize="80px"
+                            android:layout_centerInParent="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_width="70dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_height="70dp"
+                    card_view:cardCornerRadius="4dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:text="1"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:textSize="35px"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:text="A"
+                            android:textSize="80px"
+                            android:layout_centerInParent="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:paddingBottom="10dp"
+                android:background="#bfbc8c"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="5dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    card_view:cardCornerRadius="4dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:text="12"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:textSize="35px"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:text="A"
+                            android:textSize="80px"
+                            android:layout_centerInParent="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginEnd="5dp"
+                    card_view:cardCornerRadius="4dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:text="1"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:textSize="35px"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:text="A"
+                            android:textSize="80px"
+                            android:layout_centerInParent="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_gravity="center"
+                    android:layout_width="70dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_height="70dp"
+                    card_view:cardCornerRadius="4dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:text="1"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentEnd="true"
+                            android:textSize="35px"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:text="A"
+                            android:textSize="80px"
+                            android:layout_centerInParent="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
